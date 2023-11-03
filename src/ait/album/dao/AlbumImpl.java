@@ -29,7 +29,7 @@ public class AlbumImpl extends Photo {
             if (photo instanceof ConcretePhoto) {
                 photos[size++] = (ConcretePhoto) photo;
             } else {
-                System.out.println("Неправильный тип фотографии. Ожидается ConcretePhoto.");
+                System.out.println("Неправильный тип фотографии");
             }
         } System.out.println("Альбом полон, невозможно добавить больше фотографий.");
     }
