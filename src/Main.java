@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        // Пример использования вашего класса AlbumImpl
+ 
         int albumId = 1;
         int photoId = 1;
         String title = "Photo 1";
